@@ -1,0 +1,183 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("../images/main-bg.png");
+  width: 100%;
+  background-color: black;
+  background-repeat: contain;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+.content {
+  margin: 160px 14% 150px 14%;
+  width: 72%;
+}
+.content nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.content nav .logo {
+  margin-right: 50px;
+}
+.content nav .links {
+  margin-left: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+.content header {
+  margin-top: 110px;
+  color: white;
+  font-family: "Proxima";
+}
+.content header h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+.content header h2 {
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 78px;
+}
+.content .text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #AFAFAF;
+  width: 600px;
+}
+.content .primiere {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.content .primiere .text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #B02000;
+}
+.content .primiere .date {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.content .look-btn {
+  margin-top: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 260px;
+  height: 65px;
+  background: linear-gradient(90deg, #FB641A 0%, #FC3309 100%);
+  border-radius: 300px;
+  line-height: 65px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.content .look-btn .circle {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background: white;
+  border-radius: 50%;
+  right: 0px;
+  box-shadow: 0 0 20px white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.content .look-btn span {
+  margin-left: 30px;
+}
+.content .last-episodes {
+  margin-top: 50px;
+}
+.content .last-episodes .text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.content .last-episodes .blocks {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.content .last-episodes .blocks .block {
+  padding: 20px;
+  width: 20%;
+  background: linear-gradient(0deg, rgba(64, 101, 255, 0.86), rgba(64, 101, 255, 0.86));
+  border-radius: 10px;
+}
+.content .last-episodes .blocks .block .year {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.content .last-episodes .blocks .block h3 {
+  margin-top: 5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.content .last-episodes .blocks .block .rating {
+  margin-top: 35px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 150%;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+}
+.content .last-episodes .blocks .block .rating .stars {
+  margin-left: 20px;
+}
+.content .last-episodes .blocks .block .rating .stars img {
+  margin-right: 3px;
+}
+.content .arrows {
+  display: flex;
+  margin-top: 35px;
+}
+.content .arrows img:nth-child(2) {
+  margin-left: 10px;
+  transform: rotate(180deg);
+}
+@font-face {
+  font-family: "Proxima";
+  src: url(../fonts/ProximaNova-ExtrabldIt.ttf);
+}
